@@ -1,0 +1,27 @@
+﻿{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "name": {
+            "value": "rajag"
+        },
+        "location": {
+            "value": "eastus"
+        },
+        "accountType": {
+            "value": "Standard_RAGRS"
+        },
+        "kind": {
+            "value": "Storage"
+        },
+        "httpsTrafficOnlyEnabled": {
+            "value": false
+        },
+        "resourceGroupName": {
+            "value": "Hexaware"
+        },
+        "resourceGroupLocation": {
+            "value": "East US"
+        }
+    }
+}
