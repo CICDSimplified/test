@@ -1,25 +1,25 @@
-﻿param(
+param(
  
- [Parameter(Mandatory=$True)]
+
  [string]
  $subscriptionId = "984e23fe-ab03-4050-8d8a-60d1adafcda0",
 
- [Parameter(Mandatory=$True)]
+ 
  [string]
  $resourceGroupName = "Hexaware",
 
  [string]
  $resourceGroupLocation = "East US",
 
- [Parameter(Mandatory=$True)]
+ #[Parameter(Mandatory=$True)]
  [string]
  $deploymentName = "storage_raja",
 
  [string]
- $templateFilePath = "template.json",
+ $templateFilePath = "storagetemplate.json",
 
  [string]
- $parametersFilePath = "parameters.json"
+ $parametersFilePath = "storageparameters.json"
 )
 $ErrorActionPreference = "Stop"
 
